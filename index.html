@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/tic-tac-toe.css" />
+        <meta charset="UTF-8" />
+
+    </head>
+    <body>
+        <div id="game">
+            <h1>SKULL TIC-TAC-TOE</h1>
+            <div id="board">
+                <button class="cell">
+                    <span class="cell-content"></span>
+                </button>
+                <button class="cell">
+                    <span class="cell-content"></span>
+                </button><button class="cell">
+                    <span class="cell-content"></span>
+                </button><button class="cell">
+                    <span class="cell-content"></span>
+                </button><button class="cell">
+                    <span class="cell-content"></span>
+                </button><button class="cell">
+                    <span class="cell-content"></span>
+                </button><button class="cell">
+                    <span class="cell-content"></span>
+                </button><button class="cell">
+                    <span class="cell-content"></span>
+                </button>
+                <button class="cell">
+                    <span class="cell-content"></span>
+                </button>
+            </div>
+        </div>
+
+        <div id="modal-overlay">
+            <div id="game-result-modal">
+                <div id="result-container">
+                    <div id="winner-container">
+                        <span></span>
+                    </div>
+                </div>
+                <div id="new-game-container">
+                    <button type="submit" onClick="refreshPage()">New Game</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/tic-tac-toe.js"></script>
+        <noscript>You need to enable JavaScript to run this app</noscript>
+    </body>
+</html>
